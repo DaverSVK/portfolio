@@ -12,15 +12,66 @@ function Footer() {
   let year = date.getFullYear();
   return (
     <Container fluid className="footer">
+              <Row>
+                <Col md={12} className="home-about-social">
+                  <h1>FIND ME ON</h1>
+                  <p>
+                    Feel free to <span className="purple">connect </span>with me
+                  </p>
+                  <ul className="home-about-social-links">
+                    <li className="social-icons">
+                      <a
+                        href="https://github.com/soumyajit4419"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="icon-colour  home-social-icons"
+                      >
+                        <AiFillGithub />
+                      </a>
+                    </li>
+                    <li className="social-icons">
+                      <a
+                        href="https://twitter.com/Soumyajit4419"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="icon-colour  home-social-icons"
+                      >
+                        <AiOutlineTwitter />
+                      </a>
+                    </li>
+                    <li className="social-icons">
+                      <a
+                        href="https://www.linkedin.com/in/soumyajit4419/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="icon-colour  home-social-icons"
+                      >
+                        <FaLinkedinIn />
+                      </a>
+                    </li>
+                    <li className="social-icons">
+                      <a
+                        href="https://www.instagram.com/soumyajit4419"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="icon-colour home-social-icons"
+                      >
+                        <AiFillInstagram />
+                      </a>
+                    </li>
+                  </ul>
+                </Col>
+              </Row>
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>Designed and Developed by Soumyajit Behera</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          {/* <h3>Copyright © {year} SB</h3> */}
         </Col>
         <Col md="4" className="footer-body">
-          <ul className="footer-icons">
+          <h3>Copyright © {year} SB</h3>
+          {/* <ul className="footer-icons">
             <li className="social-icons">
               <a
                 href="https://github.com/soumyajit4419"
@@ -61,7 +112,7 @@ function Footer() {
                 <AiFillInstagram />
               </a>
             </li>
-          </ul>
+          </ul> */}
         </Col>
       </Row>
     </Container>
