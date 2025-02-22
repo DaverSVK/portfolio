@@ -1,33 +1,43 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  SiVisualstudiocode,
-  SiClickup,
-  SiDiscord,
-  SiAnydesk,
-  SiWindows11,
-} from "react-icons/si";
+import { CgCPlusPlus } from "react-icons/cg";
 
-function Toolstack() {
+import {
+  DiReact,
+  DiPython,
+  DiGit,
+  // DiC,
+} from "react-icons/di";
+import {
+  SiFirebase,
+  SiAutodesk,
+  SiBlender,
+
+  // SiMathworks,
+  // SiRaspberrypi,
+} from "react-icons/si";
+// import { TbBrandGolang } from "react-icons/tb";
+
+function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiWindows11 />
+        <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiClickup />
+        <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiDiscord />
+        <SiAutodesk />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAnydesk />
+        <DiPython />
       </Col>
     </Row>
   );
 }
 
-export default Toolstack;
+export default Techstack;

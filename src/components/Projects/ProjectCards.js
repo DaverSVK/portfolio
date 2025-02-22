@@ -3,10 +3,18 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { useNavigate } from "react-router-dom";
 
 function ProjectCards(props) {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    if (props.navigateTo) {
+      navigate(props.navigateTo);
+    }
+  };
   return (
-    <Card className="project-card-view">
+    <Card className="project-card-view" onClick={handleClick} style={{ cursor: "pointer" }}>
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
@@ -35,6 +43,7 @@ function ProjectCards(props) {
         )}
       </Card.Body>
     </Card>
+
   );
 }
 export default ProjectCards;

@@ -21,7 +21,7 @@ function Footer() {
                   <ul className="home-about-social-links">
                     <li className="social-icons">
                       <a
-                        href="https://github.com/soumyajit4419"
+                        href="https://github.com/DaverSVK"
                         target="_blank"
                         rel="noreferrer"
                         className="icon-colour  home-social-icons"
@@ -29,7 +29,7 @@ function Footer() {
                         <AiFillGithub />
                       </a>
                     </li>
-                    <li className="social-icons">
+                    {/* <li className="social-icons">
                       <a
                         href="https://twitter.com/Soumyajit4419"
                         target="_blank"
@@ -38,10 +38,10 @@ function Footer() {
                       >
                         <AiOutlineTwitter />
                       </a>
-                    </li>
+                    </li> */}
                     <li className="social-icons">
                       <a
-                        href="https://www.linkedin.com/in/soumyajit4419/"
+                        href="https://www.linkedin.com/in/d%C3%A1vid-sz%C3%A9pv%C3%B6lgyi-a6167b210/"
                         target="_blank"
                         rel="noreferrer"
                         className="icon-colour  home-social-icons"
@@ -51,7 +51,7 @@ function Footer() {
                     </li>
                     <li className="social-icons">
                       <a
-                        href="https://www.instagram.com/soumyajit4419"
+                        href="https://www.instagram.com/david__szepvolgyi/"
                         target="_blank"
                         rel="noreferrer"
                         className="icon-colour home-social-icons"
@@ -64,7 +64,7 @@ function Footer() {
               </Row>
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+          <h3>Original Developer by Soumyajit Behera</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           {/* <h3>Copyright © {year} SB</h3> */}

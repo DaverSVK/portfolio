@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/Robot-Home.png";
 import Particle from "../Particle";
-import Home2 from "./Home2";
+// import Home2 from "./Home2";
 import Type from "./Type";
 import {
   AiFillGithub,
@@ -21,9 +21,6 @@ function Home() {
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
               </h1>
 
               <h1 className="heading-name">
@@ -45,10 +42,10 @@ function Home() {
               />
             </Col>
           </Row>
-          <ul className="home-about-social-links">
+         <ul className="home-about-social-links">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
+                href="https://github.com/DaverSVK"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour  home-social-icons"
@@ -56,7 +53,7 @@ function Home() {
                 <AiFillGithub />
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href="https://twitter.com/Soumyajit4419"
                 target="_blank"
@@ -65,10 +62,10 @@ function Home() {
               >
                 <AiOutlineTwitter />
               </a>
-            </li>
+            </li> */}
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://www.linkedin.com/in/d%C3%A1vid-sz%C3%A9pv%C3%B6lgyi-a6167b210/"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour  home-social-icons"
@@ -78,7 +75,7 @@ function Home() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
+                href="https://www.instagram.com/david__szepvolgyi/"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour home-social-icons"
