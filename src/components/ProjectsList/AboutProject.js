@@ -9,15 +9,7 @@ function AboutCard(props) {
           <p style={{ textAlign: "justify" }}>
             {props.aboutInfo}
           </p>
-          {/* <ul className="list-disc pl-5">
- 
-            <li className="about-activity">
-              <ImRadioChecked/>   Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImRadioChecked/>   Travelling
-            </li>
-          </ul> */}
+
         </blockquote>
       </Card.Body>
     </Card>
