@@ -339,6 +339,7 @@ button:focus {
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
+  pointer-events: auto !important;
 }
 
 .home-social-icons:hover::before {
@@ -356,6 +357,7 @@ button:focus {
   display: inline-block !important;
   padding-right: 15px;
   padding-left: 15px;
+  z-index: 10;
 }
 
 .icon-colour {

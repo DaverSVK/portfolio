@@ -10,9 +10,7 @@ function AboutCard(props) {
             {props.aboutInfo}
           </p>
           <ul className="list-disc pl-5">
-            <li className="about-activity">
-              <ImRadioChecked/>  Playing Games
-            </li>
+ 
             <li className="about-activity">
               <ImRadioChecked/>   Writing Tech Blogs
             </li>
