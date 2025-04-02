@@ -14,6 +14,7 @@ function Github() {
         blockMargin={5}
         color="#5AD15C"
         fontSize={16}
+        showTotalCount={true}
       />
     </Row>
   );

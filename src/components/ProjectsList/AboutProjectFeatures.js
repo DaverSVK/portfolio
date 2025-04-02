@@ -1,15 +1,15 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImRadioChecked } from "react-icons/im";
-function AboutCard(props) {
+function AboutProjectFeatures(props) {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            {props.aboutInfo}
-          </p>
-          {/* <ul className="list-disc pl-5">
+          <h2 style={{ textAlign: "justify" }}>
+            Key Features of the Project:
+          </h2>
+          <ul className="list-disc pl-5">
  
             <li className="about-activity">
               <ImRadioChecked/>   Writing Tech Blogs
@@ -17,11 +17,11 @@ function AboutCard(props) {
             <li className="about-activity">
               <ImRadioChecked/>   Travelling
             </li>
-          </ul> */}
+          </ul>
         </blockquote>
       </Card.Body>
     </Card>
   );
 }
 
-export default AboutCard;
+export default AboutProjectFeatures;
